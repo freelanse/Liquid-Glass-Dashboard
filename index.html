@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Liquid Glass Dashboard</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="content-wrapper">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/IPhone_15_Pro_Blue_Titanium.svg/300px-IPhone_15_Pro_Blue_Titanium.svg.png"
+       alt="iPhone" class="iphone">
+
+  <div class="glass" id="widget-weather" style="top:100px; left:400px;">
+    <h3>Погода...</h3>
+    <p>Загрузка данных...</p>
+  </div>
+  <div class="glass" id="widget-music" style="top:320px; left:400px;">
+    <h3>Музыка 🎵</h3>
+    <p>🎧 The Weeknd – Blinding Lights</p>
+  </div>
+  <div class="glass" id="widget-notes" style="top:540px; left:400px;">
+    <h3>Заметки 📝</h3>
+    <p id="notes-display">- Сделать дизайн<br>- Записать видео</p>
+    <textarea id="notes-textarea" style="display: none;" placeholder="Введите вашу заметку..."></textarea>
+  </div>
+</div>
+  <script src="script.js"></script>
+
+</body>
+</html>
